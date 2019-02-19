@@ -2,5 +2,9 @@
   "name": "tdd",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-redacademy": "^0.3.5",
+    "jest-cli": "^24.1.0"
+  }
 }
