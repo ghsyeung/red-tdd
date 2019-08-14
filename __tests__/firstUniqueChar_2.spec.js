@@ -32,8 +32,8 @@ function _firstUniqueChar(input) {
 
 
 function remove(str, i) {
-  let pre = str.substring(0, i);
-  let post = str.substring(i+1, str.length);
+  let pre = str.slice(0, i);
+  let post = str.slice(i+1);
   return pre + post;
 }
 
